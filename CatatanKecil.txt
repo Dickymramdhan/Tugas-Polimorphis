@@ -1,0 +1,16 @@
+Konsep Polimorphis :
+1.	Suatu obyek yang memiliki sifat yang sama dengan orang tuanya atau pada class nya sendiri.
+2.	Kemampuan objek untuk memanggill aksi yang berbeda bila method yang sama dipanggil.
+3.	//membuat objek-objek raut(ekspresi) dari wajah
+        Bentukwajah objbentuk=new Bentukwajah();
+        Senyum objsenyum=new Senyum();
+        Tertawa objtertawa=new Tertawa();
+        Marah objmarah=new Marah();
+        Sedih objsedih=new Sedih();
+        //polimorphis dari bentuk wajah ada 5 dimulai dari 0-4
+        Bentukwajah []Bentuk=new Bentukwajah[5];
+        Bentuk[0]=objbentuk;
+        Bentuk[1]=objsenyum;
+        Bentuk[2]=objtertawa;
+        Bentuk[3]=objmarah;
+        Bentuk[4]=objsedih;
